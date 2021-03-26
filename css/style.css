@@ -1,0 +1,161 @@
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    display: block
+}
+header{
+    background-image: url("../img/bitcoin-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#logo{
+    color: #ffffff;
+}
+nav{
+    width: 80%;
+    height: 8em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin-left: 3em;
+}
+#subscribe{
+    background-color: #F7931A;
+    padding: .8em 3em;
+    border-radius: 6px;
+    color: #000000;
+}
+.breaking-nyhed{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 4em;
+}
+video{
+    width: 100%;
+    margin: 0 1em 1em 0;
+}
+.gul-tekst{
+    color: #F7931A;
+    font-size: 12px;
+    margin-top: 1em;
+}
+div.start-video p{
+    margin-top: 1em;
+}
+.nyheder{
+    margin-left: 3em;
+}
+hr{
+    border: 1px solid #222B40;
+    margin: 1em 0;
+}
+#artikler{
+    width: 80%;
+    margin: 2em auto;
+}
+section#artikler h3{
+    color: #0C1220;
+}
+section#artikler input{
+    height: 3em;
+    border: 1px solid #C2C2C2;
+    width: 33.5em;
+    margin: 1em 0;
+    padding-left: 1em;
+}
+.mini-artikler{
+    display: flex;
+    margin-top: 1em;
+}
+div.mini-artikler img{
+    height: 200px;
+}
+.artikel-info{
+    margin-left: 1em;
+}
+div.artikel-info h2{
+    color: #0B1018;
+    margin-top: .5em;
+}
+footer{
+    height: 14.4375em;
+    background-image: url("../img/bitcoin-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-info{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 854px){
+    .breaking-nyhed{
+        display: block;
+    }
+    .nyheder{
+        margin: 3em 0 0 0;
+    }
+    .mini-artikler {
+        display: block;
+    }
+    .mini-artikler img {
+        height: 100%;
+        width: 100%;
+    }
+    section#artikler input{
+        width: 100%;
+    }
+    .footer-info{
+        padding: 1em;
+        display: block;
+    }
+    .socials{
+        margin: 1em 0;
+    }
+    #subscribe{
+        width: 100%;
+        visibility: hidden;
+        padding: 0;
+    }
+    #subscribe:after{
+        content:'Sub'; 
+        visibility: visible;
+        background-color: #F7931A;
+        padding: .8em 1em;
+        border-radius: 6px;
+    }
+    li{
+        margin-left: 0;
+    }
+}

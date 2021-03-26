@@ -1,0 +1,77 @@
+body{
+    background-image: url("../img/bg-artikel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: 100% 0;
+    background-size:50%;
+}
+#wrapper{
+    width: 60%;
+    margin: 5em auto;
+    display: flex;
+}
+header{
+    background-image: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#logo a{
+    color: #9F9F9F;
+}
+.billeder{
+    width: 50%;
+}
+.tekst{
+    width: 50%;
+    padding: 0 0 0 10em;
+}
+.artikel-billede{
+    width: 21.75em;
+    margin: 1em 0;
+}
+img{
+    width: 100%;
+}
+.gul-farve{
+    color: #F7931A;
+}
+.graa-farve{
+    color: #77797D;
+}
+p{
+    line-height: 1.6;
+}
+@media(max-width: 1564px){
+    body{
+        background-image: url("../img/bg-artikel.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        overflow: overlay;
+    }
+    #wrapper{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    #logo a{
+        color: #ffffff;
+    }
+    .billeder{
+        width: 100%;
+    }
+    .tekst{
+        padding: 0;
+        margin: 2em 0 4em 0;
+        width: 100%;
+    }
+    .artikel-billede{
+        width: 100%;
+    }
+    .graa-farve {
+        color: #ffffff;
+    }
+}
